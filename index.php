@@ -23,7 +23,7 @@ $color_pick = array_rand($colors);
 	<script language="javascript" type="text/javascript">  
 
 		var msgBox = $('#message-box');
-		var wsUri = "ws://0.0.0.0:80/server.php"; 	
+		var wsUri = "ws://52.201.30.51:80/server.php"; 	
 		websocket = new WebSocket(wsUri); 
 
 		websocket.onopen = function(ev) { 
