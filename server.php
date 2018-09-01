@@ -1,5 +1,5 @@
 <?php
-$host = 'https://github.com/kiramayatu/Chat'; 
+$host = 'https://fathomless-plateau-54378.herokuapp.com/'; 
 $port = '80'; 
 $null = NULL; 
 
