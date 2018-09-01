@@ -1,0 +1,68 @@
+* { 
+		margin: 0; padding: 0; 
+	  }
+	body                            
+	{ font: 12px "Lucida Grande",
+	Sans-Serif; 
+	background: url(images/vyrn.jpg);
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 1380px 700px;
+}
+
+.chat-wrapper {
+	position: absolute;
+	font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+	padding: 20px;
+	margin: 100px auto;
+	left: 25%;
+	box-shadow: 2px 2px 2px 0px #00000017;
+	max-width:800px;
+	min-width:600px;
+	opacity: 0.92;
+
+}
+
+#message-box {
+	width: 97%;
+	display: inline-block;
+	height: 300px;
+	background: #fff;
+	box-shadow: inset 0px 0px 2px #00000017;
+	overflow: auto;
+	padding: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: red;
+
+}
+.user-panel{
+	margin-top: 10px;
+}
+input[type=text]{
+	border: none;
+	padding: 5px 5px;
+	box-shadow: 2px 2px 2px #0000001c;
+}
+input[type=text]#name{
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	width:60%;
+	width:20%;
+}
+input[type=text]#message{
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	width:60%;
+}
+button#send-message {
+	border: none;
+	padding: 5px 15px;
+	background: #f49e42;
+	box-shadow: 2px 2px 2px #f49e42;
+
+
+}
