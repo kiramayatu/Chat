@@ -1,5 +1,5 @@
 <?php
-$host = '52.201.30.51'; 
+$host = 'https://github.com/kiramayatu/Chat'; 
 $port = '80'; 
 $null = NULL; 
 
